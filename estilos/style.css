@@ -10,6 +10,11 @@ font-family: 'Playfair Display', serif;
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f5f3;
 }
 
 header .message-topo {
@@ -20,4 +25,46 @@ header .message-topo {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     letter-spacing: 3px;
     text-align: center;
+}
+
+div#container-nav {
+    max-width: 1400px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    padding-left: 40px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    color: black;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    width: 15px;
 }
