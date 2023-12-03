@@ -17,6 +17,10 @@ body {
     background-color: #f6f5f3;
 }
 
+header {
+    width: 100%;
+}
+
 header .message-topo {
     background-color: black;
     color: white;
@@ -27,44 +31,48 @@ header .message-topo {
     text-align: center;
 }
 
-div#container-nav {
-    max-width: 1400px;
-    padding: 10px;
+.container {
+    max-width: 1080px;
     margin: 0 auto;
-}
-
-nav {
+    padding-top: 30px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-nav .logo {
+.logo, .sociais {
+    width: 25%;
+}
+
+.logo h1 {
     font-family: 'Playfair Display', serif;
     font-size: 2.5em;
-    padding-left: 40px;
+    font-weight: 400;
 }
 
-nav ul {
-    list-style: none;
+.sociais img {
+    width: 14px;
+    margin-right: 10px;
 }
 
-nav ul li {
-    display: inline-block;
+.menu {
+    width: 50%;
 }
 
-nav ul li a {
+.menu nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu nav a {
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 0.8em;
     color: black;
+    padding-right: 20px;
 }
 
-nav ul li a:hover {
+.menu nav a:hover {
     text-decoration: underline;
-}
-
-nav img {
-    width: 15px;
 }
