@@ -40,8 +40,12 @@ header .message-topo {
     justify-content: center;
 }
 
-.logo, .sociais {
-    width: 25%;
+.logo {
+    width: 30%;
+}
+
+.sociais {
+    width: 10%;
 }
 
 .logo h1 {
@@ -50,13 +54,19 @@ header .message-topo {
     font-weight: 400;
 }
 
+header > div .sociais {
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .sociais img {
     width: 14px;
     margin-right: 10px;
 }
 
 .menu {
-    width: 50%;
+    width: 60%;
 }
 
 .menu nav {
