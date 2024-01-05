@@ -180,3 +180,45 @@ div.solid-sessao1 {
     height: 400px;
     background-color: #95705b;
 }
+
+div.sessao-bloco2 {
+    width: 570px;
+    text-align: center;
+    padding: 200px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.sessao-bloco2 > h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9em;
+    font-weight: 500;
+    width: 350px;
+    margin: auto;
+}
+
+div.sessao-bloco2 > h2 > span {
+    font-style: italic;
+}
+
+div.sessao-bloco2 > p {
+    padding: 15px;
+    margin-bottom: 15px;
+    line-height: 23px;
+    font-size: 0.9em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+div.sessao-bloco2 > a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    width: 120px;
+    padding: 7px;
+    font-size: 0.6em;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    
+}
