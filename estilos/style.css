@@ -272,9 +272,33 @@ div.s2-textos > a {
 div.solids2 {
     position: absolute;
     right: 0px;
-    width: 450px;
+    width: 430px;
     height: 400px;
     background-color: black;
 }
 
+div.s2-imgs > div.blocoimagens {
+    display: flex;
+}
 
+div.img01s2 {
+    position: relative;
+    top: 70px;
+    left: 270px;
+    background: url(../imagens/foto01.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 280px;
+}
+
+div.img02s2 {
+    position: relative;
+    top: 70px;
+    left: 300px;
+    background: url(../imagens/foto02.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 280px;
+}
