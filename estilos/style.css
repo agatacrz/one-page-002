@@ -226,7 +226,7 @@ div.sessao-bloco2 > a {
 section.sessao2 {
     display: flex;
     flex-direction: row;
-    margin-bottom: 80px;
+    margin-bottom: 160px;
 }
 
 div.s2-textos {
@@ -303,6 +303,20 @@ div.img02s2 {
     height: 280px;
 }
 
+div.the-services > h2#the-services {
+    position: absolute;
+    top: 1985px;
+    left: 42%;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+div.the-services > h2#the-services > span {
+    font-style: italic;
+}
+
 section.services {
     background-color: white;
     display: flex;
@@ -312,8 +326,10 @@ section.services {
 }
 
 div.services-bloco1 {
-    width: 270px;
+    width: 30%;
     text-align: center;
+    border-right: 1px solid black;
+    padding-right: 15px;
 }
 
 div.services-bloco1 > h3 {
@@ -343,8 +359,10 @@ div.services-bloco1 > a {
 }
 
 div.services-bloco2 {
-    width: 270px;
+    width: 30%;
     text-align: center;
+    border-right: 1px solid black;
+    padding-right: 15px;
 }
 
 div.services-bloco2 > h3 {
@@ -374,8 +392,9 @@ div.services-bloco2 > a {
 }
 
 div.services-bloco3 {
-    width: 270px;
+    width: 30%;
     text-align: center;
+    padding-right: 15px;
 }
 
 div.services-bloco3 > h3 {
